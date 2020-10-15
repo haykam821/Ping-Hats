@@ -1,0 +1,9 @@
+{
+	"values": [
+		"pinghats:direct_ping_hat",
+		"pinghats:everyone_ping_hat",
+		"pinghats:here_ping_hat",
+		"pinghats:self_ping_hat",
+		"pinghats:someone_ping_hat"
+	]
+}

@@ -1,0 +1,27 @@
+{
+	"schemaVersion": 1,
+	"id": "pinghats",
+	"version": "${version}",
+	"name": "Ping Hats",
+	"description": "Adds hats that play sounds for other players.",
+	"authors": [
+		"haykam821"
+	],
+	"contact": {
+		"homepage": "https://github.com/haykam821/Ping-Hats#readme",
+		"issues": "https://github.com/haykam821/Ping-Hats/issues"
+	},
+	"entrypoints": {
+		"main": [
+			"io.github.haykam821.pinghats.Main"
+		]
+	},
+	"mixins": [
+		"pinghats.mixin.json"
+	],
+	"license": "MIT",
+	"icon": "assets/pinghats/icon.png",
+	"depends": {
+		"fabricloader": ">=0.4.0"
+	}
+}

@@ -1,0 +1,8 @@
+{
+	"item.pinghats.direct_ping_hat": "Direct Ping Hat",
+	"item.pinghats.direct_ping_hat.target": "Target: %s",
+	"item.pinghats.everyone_ping_hat": "Everyone Ping Hat",
+	"item.pinghats.here_ping_hat": "Here Ping Hat",
+	"item.pinghats.self_ping_hat": "Self Ping Hat",
+	"item.pinghats.someone_ping_hat": "Someone Ping Hat"
+}
