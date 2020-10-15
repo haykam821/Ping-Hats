@@ -7,6 +7,7 @@ import net.fabricmc.fabric.api.util.NbtType;
 import net.minecraft.entity.EquipmentSlot;
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.item.ArmorItem;
+import net.minecraft.item.ArmorMaterial;
 import net.minecraft.item.ArmorMaterials;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
@@ -20,8 +21,8 @@ import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 
 public abstract class PingHatItem extends ArmorItem {
-	public PingHatItem(Item.Settings settings) {
-		super(ArmorMaterials.LEATHER, EquipmentSlot.HEAD, settings);
+	public PingHatItem(ArmorMaterial material, Item.Settings settings) {
+		super(material, EquipmentSlot.HEAD, settings);
 	}
 
 	public abstract Collection<ServerPlayerEntity> getTargets(ItemStack stack, LivingEntity user, ServerWorld world);

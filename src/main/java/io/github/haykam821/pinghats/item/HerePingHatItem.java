@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.Collection;
 
 import net.minecraft.entity.LivingEntity;
+import net.minecraft.item.ArmorMaterial;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraft.predicate.entity.EntityPredicates;
@@ -11,8 +12,8 @@ import net.minecraft.server.network.ServerPlayerEntity;
 import net.minecraft.server.world.ServerWorld;
 
 public class HerePingHatItem extends PingHatItem {
-	public HerePingHatItem(Item.Settings settings) {
-		super(settings);
+	public HerePingHatItem(ArmorMaterial material, Item.Settings settings) {
+		super(material, settings);
 	}
 
 	@Override

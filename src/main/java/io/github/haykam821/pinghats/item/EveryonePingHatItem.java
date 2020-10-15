@@ -3,14 +3,15 @@ package io.github.haykam821.pinghats.item;
 import java.util.Collection;
 
 import net.minecraft.entity.LivingEntity;
+import net.minecraft.item.ArmorMaterial;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraft.server.network.ServerPlayerEntity;
 import net.minecraft.server.world.ServerWorld;
 
 public class EveryonePingHatItem extends PingHatItem {
-	public EveryonePingHatItem(Item.Settings settings) {
-		super(settings);
+	public EveryonePingHatItem(ArmorMaterial material, Item.Settings settings) {
+		super(material, settings);
 	}
 
 	@Override

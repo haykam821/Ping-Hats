@@ -5,14 +5,15 @@ import java.util.Collection;
 import com.google.common.collect.Lists;
 
 import net.minecraft.entity.LivingEntity;
+import net.minecraft.item.ArmorMaterial;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraft.server.network.ServerPlayerEntity;
 import net.minecraft.server.world.ServerWorld;
 
 public class SelfPingHatItem extends PingHatItem {
-	public SelfPingHatItem(Item.Settings settings) {
-		super(settings);
+	public SelfPingHatItem(ArmorMaterial material, Item.Settings settings) {
+		super(material, settings);
 	}
 
 	@Override

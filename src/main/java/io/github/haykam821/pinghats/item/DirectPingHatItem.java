@@ -11,6 +11,7 @@ import net.minecraft.client.item.TooltipContext;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.player.PlayerEntity;
+import net.minecraft.item.ArmorMaterial;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraft.nbt.CompoundTag;
@@ -25,8 +26,8 @@ import net.minecraft.util.TypedActionResult;
 import net.minecraft.world.World;
 
 public class DirectPingHatItem extends PingHatItem {
-	public DirectPingHatItem(Item.Settings settings) {
-		super(settings);
+	public DirectPingHatItem(ArmorMaterial material, Item.Settings settings) {
+		super(material, settings);
 	}
 
 	@Override
