@@ -1,0 +1,30 @@
+{
+	"parent": "minecraft:recipes/root",
+	"rewards": {
+		"recipes": [
+			"pinghats:ping_listener"
+		]
+	},
+	"criteria": {
+		"has_observer": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:observer"
+				}]
+			}
+		},
+		"has_the_recipe": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "pinghats:ping_listener"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_observer",
+			"has_the_recipe"
+		]
+	]
+}

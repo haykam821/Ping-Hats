@@ -1,0 +1,12 @@
+{
+	"parent": "block/cube",
+	"textures": {
+		"down": "pinghats:block/self_ping_listener_side",
+		"east": "pinghats:block/self_ping_listener_side",
+		"north": "pinghats:block/self_ping_listener_front",
+		"particle": "pinghats:block/self_ping_listener_side",
+		"south": "pinghats:block/self_ping_listener_back",
+		"up": "pinghats:block/self_ping_listener_side",
+		"west": "pinghats:block/self_ping_listener_side"
+	}
+}

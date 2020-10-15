@@ -1,0 +1,30 @@
+{
+	"parent": "minecraft:recipes/root",
+	"rewards": {
+		"recipes": [
+			"pinghats:everyone_ping_listener"
+		]
+	},
+	"criteria": {
+		"has_redstone": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:redstone"
+				}]
+			}
+		},
+		"has_the_recipe": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "pinghats:everyone_ping_listener"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_redstone",
+			"has_the_recipe"
+		]
+	]
+}

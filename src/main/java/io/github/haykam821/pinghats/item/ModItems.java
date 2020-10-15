@@ -7,6 +7,7 @@ import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 
 public enum ModItems {
+	PING_SUBWOOFER("ping_subwoofer", new Item(new Item.Settings().group(ItemGroup.MATERIALS))),
 	DIRECT_PING_HAT("direct_ping_hat", new DirectPingHatItem(new PingHatMaterial("direct_ping"), new Item.Settings().group(ItemGroup.COMBAT))),
 	EVERYONE_PING_HAT("everyone_ping_hat", new EveryonePingHatItem(new PingHatMaterial("everyone_ping"), new Item.Settings().group(ItemGroup.COMBAT))),
 	HERE_PING_HAT("here_ping_hat", new HerePingHatItem(new PingHatMaterial("here_ping"), new Item.Settings().group(ItemGroup.COMBAT))),

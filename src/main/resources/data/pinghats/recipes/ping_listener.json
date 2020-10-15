@@ -1,0 +1,11 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"ingredients": [{
+		"item": "minecraft:observer"
+	}, {
+		"item": "pinghats:ping_subwoofer"
+	}],
+	"result": {
+		"item": "pinghats:ping_listener"
+	}
+}

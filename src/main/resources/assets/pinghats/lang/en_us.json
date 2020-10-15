@@ -1,8 +1,15 @@
 {
+	"block.pinghats.direct_ping_listener": "Direct Ping Listener",
+	"block.pinghats.everyone_ping_listener": "Everyone Ping Listener",
+	"block.pinghats.here_ping_listener": "Here Ping Listener",
+	"block.pinghats.ping_listener": "Ping Listener",
+	"block.pinghats.self_ping_listener": "Self Ping Listener",
+	"block.pinghats.someone_ping_listener": "Someone Ping Listener",
 	"item.pinghats.direct_ping_hat": "Direct Ping Hat",
 	"item.pinghats.direct_ping_hat.target": "Target: %s",
 	"item.pinghats.everyone_ping_hat": "Everyone Ping Hat",
 	"item.pinghats.here_ping_hat": "Here Ping Hat",
+	"item.pinghats.ping_subwoofer": "Ping Subwoofer",
 	"item.pinghats.self_ping_hat": "Self Ping Hat",
 	"item.pinghats.someone_ping_hat": "Someone Ping Hat",
 	"subtitles.item.ping_hat.ping_received": "Ping received"

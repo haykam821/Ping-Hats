@@ -4,6 +4,7 @@ import java.util.Collection;
 
 import com.google.common.collect.Lists;
 
+import io.github.haykam821.pinghats.PingType;
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.item.ArmorMaterial;
 import net.minecraft.item.Item;
@@ -13,7 +14,7 @@ import net.minecraft.server.world.ServerWorld;
 
 public class SomeonePingHatItem extends PingHatItem {
 	public SomeonePingHatItem(ArmorMaterial material, Item.Settings settings) {
-		super(material, settings);
+		super(PingType.SOMEONE, material, settings);
 	}
 
 	@Override

@@ -1,0 +1,6 @@
+{
+	"parent": "pinghats:block/ping_listener",
+	"textures": {
+		"south": "pinghats:block/ping_listener_back_on"
+	}
+}

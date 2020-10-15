@@ -1,0 +1,30 @@
+{
+	"parent": "minecraft:recipes/root",
+	"rewards": {
+		"recipes": [
+			"pinghats:ping_subwoofer"
+		]
+	},
+	"criteria": {
+		"has_bell": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:bell"
+				}]
+			}
+		},
+		"has_the_recipe": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "pinghats:ping_subwoofer"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_bell",
+			"has_the_recipe"
+		]
+	]
+}

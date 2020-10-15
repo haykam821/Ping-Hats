@@ -1,0 +1,10 @@
+{
+	"values": [
+		"pinghats:direct_ping_listener",
+		"pinghats:everyone_ping_listener",
+		"pinghats:here_ping_listener",
+		"pinghats:ping_listener",
+		"pinghats:self_ping_listener",
+		"pinghats:someone_ping_listener"
+	]
+}

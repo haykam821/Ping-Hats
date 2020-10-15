@@ -2,6 +2,7 @@ package io.github.haykam821.pinghats.item;
 
 import java.util.Collection;
 
+import io.github.haykam821.pinghats.PingType;
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.item.ArmorMaterial;
 import net.minecraft.item.Item;
@@ -11,7 +12,7 @@ import net.minecraft.server.world.ServerWorld;
 
 public class EveryonePingHatItem extends PingHatItem {
 	public EveryonePingHatItem(ArmorMaterial material, Item.Settings settings) {
-		super(material, settings);
+		super(PingType.EVERYONE, material, settings);
 	}
 
 	@Override

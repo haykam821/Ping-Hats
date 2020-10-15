@@ -6,6 +6,7 @@ import java.util.UUID;
 
 import com.google.common.collect.Lists;
 
+import io.github.haykam821.pinghats.PingType;
 import net.fabricmc.fabric.api.util.NbtType;
 import net.minecraft.client.item.TooltipContext;
 import net.minecraft.entity.Entity;
@@ -27,7 +28,7 @@ import net.minecraft.world.World;
 
 public class DirectPingHatItem extends PingHatItem {
 	public DirectPingHatItem(ArmorMaterial material, Item.Settings settings) {
-		super(material, settings);
+		super(PingType.DIRECT, material, settings);
 	}
 
 	@Override
