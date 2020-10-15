@@ -4,5 +4,6 @@
 	"item.pinghats.everyone_ping_hat": "Everyone Ping Hat",
 	"item.pinghats.here_ping_hat": "Here Ping Hat",
 	"item.pinghats.self_ping_hat": "Self Ping Hat",
-	"item.pinghats.someone_ping_hat": "Someone Ping Hat"
+	"item.pinghats.someone_ping_hat": "Someone Ping Hat",
+	"subtitles.item.ping_hat.ping_received": "Ping received"
 }

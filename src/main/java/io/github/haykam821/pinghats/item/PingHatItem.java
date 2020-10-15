@@ -3,6 +3,7 @@ package io.github.haykam821.pinghats.item;
 import java.util.Collection;
 import java.util.Optional;
 
+import io.github.haykam821.pinghats.Main;
 import net.fabricmc.fabric.api.util.NbtType;
 import net.minecraft.entity.EquipmentSlot;
 import net.minecraft.entity.LivingEntity;
@@ -16,7 +17,6 @@ import net.minecraft.server.network.ServerPlayerEntity;
 import net.minecraft.server.world.ServerWorld;
 import net.minecraft.sound.SoundCategory;
 import net.minecraft.sound.SoundEvent;
-import net.minecraft.sound.SoundEvents;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 
@@ -36,7 +36,7 @@ public abstract class PingHatItem extends ArmorItem {
 			}
 		}
 
-		return SoundEvents.BLOCK_BELL_USE;
+		return Main.PING_RECEIVED;
 	}
 
 	public void ping(ItemStack stack, LivingEntity user, ServerWorld world) {
