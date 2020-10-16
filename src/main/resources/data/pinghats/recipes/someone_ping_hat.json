@@ -1,0 +1,13 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"ingredients": [{
+		"item": "minecraft:leather_helmet"
+	}, {
+		"item": "pinghats:ping_subwoofer"
+	}, {
+		"item": "minecraft:chorus_fruit"
+	}],
+	"result": {
+		"item": "pinghats:someone_ping_hat"
+	}
+}

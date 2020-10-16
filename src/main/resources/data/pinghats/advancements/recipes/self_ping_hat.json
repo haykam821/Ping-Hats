@@ -1,0 +1,30 @@
+{
+	"parent": "minecraft:recipes/root",
+	"rewards": {
+		"recipes": [
+			"pinghats:self_ping_hat"
+		]
+	},
+	"criteria": {
+		"has_lapis_lazuli": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:lapis_lazuli"
+				}]
+			}
+		},
+		"has_the_recipe": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "pinghats:self_ping_hat"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_lapis_lazuli",
+			"has_the_recipe"
+		]
+	]
+}
