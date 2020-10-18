@@ -8,6 +8,7 @@ import net.minecraft.block.Block;
 import net.minecraft.sound.SoundEvent;
 import net.minecraft.tag.Tag;
 import net.minecraft.util.Identifier;
+import net.minecraft.util.registry.Registry;
 
 public class Main implements ModInitializer {
 	public static final String MOD_ID = "pinghats";
@@ -20,6 +21,8 @@ public class Main implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+		Registry.register(Registry.SOUND_EVENT, PING_RECEIVED_ID, PING_RECEIVED);
+
 		ModBlocks.register();
 		ModItems.register();
 	}
